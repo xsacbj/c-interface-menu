@@ -24,3 +24,5 @@ and to test, just:
 ```
 ./menu.out
 ```
+usse os use the arrows `↑` and `↓` to navigate through the menu
+
