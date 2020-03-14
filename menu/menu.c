@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "../getch/getch.h"
 #include "menu.h"
+
+#ifdef __linux__
+#include "../getch/getch.h" // Biblioteca para linux
+#endif
 
 void debug(char* log){
   printf("%s\n", log);
