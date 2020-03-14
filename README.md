@@ -7,9 +7,9 @@ this tiny project implements an iterative menu interface inside the terminal
 ```
 → Start
 
-↪ Settings
+  Settings
 
-⇝ Exit
+  Exit
 ```
 
 after downloading the project, at its root, run the compando below to compile the menu example:
