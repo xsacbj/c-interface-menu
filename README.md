@@ -4,9 +4,13 @@
 
 this tiny project implements an iterative menu interface inside the terminal
 
-> → Start
-> ↪ Settings
-> ⇝ Exit
+```
+→ Start
+
+↪ Settings
+
+⇝ Exit
+```
 
 after downloading the project, at its root, run the compando below to compile the menu example:
 
