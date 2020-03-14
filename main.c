@@ -9,8 +9,8 @@
 
 Menu menu;
 
-void hello(void){
-  printf("Hello World");
+void doNothing(void){
+  printf("Press any key to back");
   getch();
 }
 
@@ -22,10 +22,9 @@ int main(){
 
   createMenu(&menu);
 
-  createOptionMenu("Print Hello World",&hello, &menu);
-  createOptionMenu("Print Hello World",&hello, &menu);
-  createOptionMenu("Print Hello World",&hello, &menu);
-  createOptionMenu("Exit Menu", &exiting, &menu);
+  createOptionMenu("Start",&doNothing, &menu);
+  createOptionMenu("Settings",&doNothing, &menu);
+  createOptionMenu("Exit", &exiting, &menu);
 
   menuLoop(&menu);
 
