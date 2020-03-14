@@ -72,13 +72,13 @@ void clear(){
 void menuKeyImput(Menu *menu){
   char key = getch();
   switch(key){
-    case ARROW_UP: // Arrow up (W or ↑)
+    case ARROW_UP: // Arrow up ↑
       menu->selected_option--;
       if(menu->selected_option<0){
         menu->selected_option = menu->max_option-1;
       }
       break;
-    case ARROW_DOWN: // Arrow Down (S or ↓)
+    case ARROW_DOWN: // Arrow Down ↓
       menu->selected_option++;
       if(menu->selected_option>=menu->max_option){
         menu->selected_option = 0;
